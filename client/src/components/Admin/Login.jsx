@@ -16,7 +16,7 @@ const Login = () => {
     setLoading(true);
     try {
       // Send login data to the backend API
-      const response = await axios.post('https://ten-ivr.onrender.com/api/admin/login', data);
+      const response = await axios.post('https://hr-automation-hxy7.onrender.com/api/admin/login', data);
   
       if (response.status === 200) {
         const { token, admin } = response.data;

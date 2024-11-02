@@ -13,7 +13,7 @@ function StudentData() {
   // Function to fetch data from your API
   const fetchData = async () => {
     try {
-      const response = await fetch('https://ten-ivr.onrender.com/api/requests'); // Replace with your API endpoint
+      const response = await fetch('https://hr-automation-hxy7.onrender.com/api/requests'); // Replace with your API endpoint
       const data = await response.json();
       setRequests(data); // Set the fetched data into state
     } catch (error) {

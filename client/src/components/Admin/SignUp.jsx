@@ -11,7 +11,7 @@ const Signup = () => {
   const navigate = useNavigate();
 
   const onSubmit = async (data) => {
-    const response = await fetch('https://ten-ivr.onrender.com/api/admin/signup', {
+    const response = await fetch('https://hr-automation-hxy7.onrender.com/api/admin/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

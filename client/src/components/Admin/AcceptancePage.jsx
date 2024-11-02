@@ -9,8 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 Chart.register(CategoryScale, LinearScale, BarElement, ArcElement, Title, Tooltip, Legend);
 
 
-const API_URL = 'https://ten-ivr.onrender.com/api';
-const API_URL2 = 'https://ten-ivr.onrender.com/api/requests';
+const API_URL = 'https://hr-automation-hxy7.onrender.com/api';
+const API_URL2 = 'https://hr-automation-hxy7.onrender.com/api/requests';
 
 function AdminPanel() {
   const [teamData, setTeamData] = useState([]);

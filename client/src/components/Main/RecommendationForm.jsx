@@ -35,7 +35,7 @@ const RecommendationForm = () => {
     e.preventDefault();
     console.log(formData);
     try {
-      const response = await axios.post("https://ten-ivr.onrender.com/api/lor/create", formData);
+      const response = await axios.post("https://hr-automation-hxy7.onrender.com/api/lor/create", formData);
       console.log("Response:", response.data);
       setIsSubmitted(true);
       alert("Form submitted successfully!"); // Show success alert

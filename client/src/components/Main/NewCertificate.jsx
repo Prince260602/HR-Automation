@@ -33,7 +33,7 @@ const NewCertificate = () => {
     console.log(formData);
     try {
       const response = await axios.post(
-        "https://ten-ivr.onrender.com/api/loc/create",
+        "https://hr-automation-hxy7.onrender.com/api/loc/create",
         formData
       );
       console.log("Response:", response.data);
