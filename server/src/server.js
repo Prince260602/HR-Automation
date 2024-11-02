@@ -28,7 +28,7 @@ const { conn: DB } = await connectDB();
 export const allowlist = ["http://localhost:3000"];
 // Use CORS middleware to allow requests from your frontend origin
 app.use(cors({
-  origin: 'http://localhost:5173', // Allow the frontend origin (Vite is using this port)
+  origin: 'https://hr-automation-eight.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
 }));
 
