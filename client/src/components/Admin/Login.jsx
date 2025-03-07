@@ -75,14 +75,14 @@ const Login = () => {
             </div>
             {errors.password && <p className="text-red-500 text-sm">{errors.password.message}</p>}
           </div>
-          <div className="flex justify-center">
+{/*           <div className="flex justify-center">
             <p className="text-gray-700">
               Don't have an account?{' '}
               <Link to="/signup" className="text-blue-500">
                 <span>Create an account</span>
               </Link>
             </p>
-          </div>
+          </div> */}
           <div className="flex justify-center">
             <Button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600" disabled={loading}>
               {loading ? 'Logging in...' : 'Login'}
